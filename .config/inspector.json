@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "BenchmarkRunner.MCP": {
+      "type": "stdio",
+      "command": "dotnet",
+      "args": [
+        "run",
+        "--project",
+        "src/Mcp.BenchmarkRunner.Server/Mcp.BenchmarkRunner.Server.csproj"
+      ],
+      "env": {}
+    }
+  }
+}
